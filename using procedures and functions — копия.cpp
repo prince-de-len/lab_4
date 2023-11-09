@@ -1,9 +1,9 @@
 /*************************************
  * Style guide: https://sun.iwu.edu/~mliffito/cs_codex/posts/google-c++-style-guide/
  * Автор: Тимофеев Гордей Евгеньевич. ПИ-231
- * Версия 3
+ * Версия 3.1
  * Название: Использование процедур и функций (Вариант 13)
- * Ссылка: https://onlinegdb.com/5eAvxExpM
+ * Ссылка: https://onlinegdb.com/5iOEQlz_3
  ************************************/
 
 #include <iostream>
@@ -23,8 +23,8 @@ void count_nonzero(double array[], int size_array) {
   
   count_nonzero = 0;
   
-  for (int m = 0; m < size_array; ++m) {
-    if (array[m] != 0) {
+  for (int index = 0; m < size_array; ++index) {
+    if (array[index] != 0) {
       ++count_nonzero;
     }
   }
